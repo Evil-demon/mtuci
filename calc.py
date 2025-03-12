@@ -48,6 +48,4 @@ elif choice == '4':
 	division_result = division(num1, num2)
         print(num1, "/", num2, "=", division_result)
 else:
-	print("Invalid input. Please try again.")
-
-
+	print("Invalid input. Pleas try again")
