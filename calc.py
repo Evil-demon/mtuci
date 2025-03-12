@@ -17,7 +17,7 @@ def division(x, y):
 
 # Main code
 
-While True:
+while True:
 	# Input operation
 	print("Choose an operation:")
 	print("1. Addition")
@@ -38,16 +38,16 @@ While True:
 
 # Perfom operation
 
-	if choice == '1':
-		print(num1, "+", num2, "=", addition(num1, num2))
-	elif choice == '2':
-                print(num1, "-", num2, "=", subtraction(num1, num2))
-	elif choice == '3':
-                print(num1, "*", num2, "=", multiplication(num1, num2))
-	elif choice == '4':
-		division_result = division(num1, num2)
-                print(num1, "/", num2, "=", division_result)
-	else:
-                print("Invalid input. Please try again.")
+if choice == '1':
+	print(num1, "+", num2, "=", addition(num1, num2))
+elif choice == '2':
+        print(num1, "-", num2, "=", subtraction(num1, num2))
+elif choice == '3':
+        print(num1, "*", num2, "=", multiplication(num1, num2))
+elif choice == '4':
+	division_result = division(num1, num2)
+        print(num1, "/", num2, "=", division_result)
+else:
+	print("Invalid input. Please try again.")
 
 
