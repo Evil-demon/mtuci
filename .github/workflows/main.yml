@@ -47,4 +47,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: azazeru/testrepo:latest
+          tags: azazeru/mtuci-lab8-golubevis:latest
